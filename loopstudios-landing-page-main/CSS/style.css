@@ -1,0 +1,16 @@
+
+:root{
+    --branco: White: hsl(0, 0%, 100%);
+    --preto: Black: hsl(0, 0%, 0%);
+    --cinza-escuro:Dark Gray hsl(0, 0%, 55%);
+    --cinza-muito-escuro: Dark Gray hsl(0, 0%, 41%);
+    --fonte-principal: 'Alata', sans-serif;
+    --fonte-secundaria: 'Josefin Sans', sans-serif;
+}
+
+body{
+    font-family: var(--fonte-secundaria);
+    font-size: 16px;
+    font-weight: 300;
+    
+}
