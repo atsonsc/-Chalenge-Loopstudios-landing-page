@@ -1,7 +1,7 @@
 
 :root{
-    --branco: White: hsl(0, 0%, 100%);
-    --preto: Black: hsl(0, 0%, 0%);
+    --branco: hsl(0, 0%, 100%);
+    --preto: #000000;
     --cinza-escuro:Dark Gray hsl(0, 0%, 55%);
     --cinza-muito-escuro: Dark Gray hsl(0, 0%, 41%);
     --fonte-principal: 'Alata', sans-serif;
@@ -9,6 +9,7 @@
 }
 
 body{
+    box-sizing: border-box;
     font-family: var(--fonte-secundaria);
     font-size: 16px;
     font-weight: 300;

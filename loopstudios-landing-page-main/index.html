@@ -12,71 +12,115 @@
   <link href="/loopstudios-landing-page-main/CSS/normalize.css" rel="stylesheet">
   <link href="/loopstudios-landing-page-main/CSS/reset.css" rel="stylesheet">
   <link href="/loopstudios-landing-page-main/CSS/style.css" rel="stylesheet">
+  <link href="/loopstudios-landing-page-main/CSS/header.css" rel="stylesheet">
+  <link href="./CSS/about.css" rel="stylesheet">
+  <link href="/loopstudios-landing-page-main/CSS/footer.css" rel="stylesheet">
+  <link href="/loopstudios-landing-page-main/CSS/creations.css" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Loopstudios landing page</title>
 
 </head>
 
 <body>
-  <header>
-    <nav>
-      <a href="#"><img src="/loopstudios-landing-page-main/images/logo.svg" alt="Logo Loopstudios"></a>
-      <button>
-        <span></span>
-      </button>
-      <ul>
-        <li><a href="">About</a></li>
-        <li><a href="">Careers</a></li>
-        <li><a href="">Events</a></li>
-        <li><a href="">Products</a></li>
-        <li><a href="">Support</a></li>
-      </ul>
-      <div>
-        <h2>Immersive experiences that deliver</h2>
-      </div>
+  <header class="header">
+    <div>
+      <nav class="menu">
+        <button class="btn-mobile">
+          <span></span>
+        </button>
+        <a href="#"><img src="/loopstudios-landing-page-main/images/logo.svg" alt="Logo Loopstudios"></a>
+
+        <ul class="menu__list">
+          <li class="menu__item"><a href="#" class="menu__link">About</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Careers</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Events</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Products</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Support</a></li>
+
+        </ul>
+    </div>
+    <div class="header__container">
+      <h2 class="header__title">Immersive<br>experiences<br>that deliver</h2>
+    </div>
     </nav>
 
   </header>
 
 
-  <section>
-    <h3>The leader in interactive VR</h3>
+  <section class="about">
+    <div class="about__row">
+      <div class=" about__container about__col--1">
 
-    <p>Founded in 2011, Loopstudios has been producing world-class virtual reality
-      projects for some of the best companies around the globe. Our award-winning
-      creations have transformed businesses through digital experiences that bind
-      to their brand.</p>
+      </div>
+      <div class="about__container about__col--2">
+        <h3 class="about__title">The leader in interactive VR</h3>
 
-  </section>
-
-  <section>
-
-    <h3>Our creations</h3>
-
-    <button>See all</button>
-    <div>
-      <span>Deep earth</span>
-      <span>Night arcade</span>
-      <span>Soccer team VR</span>
-      <span>The grid</span>
-      <span>From up above VR</span>
-      <span>Pocket borealis</span>
-      <span>The curiosity</span>
-      <span>Make it fisheye</span>
+        <p class="about__text">Founded in 2011, Loopstudios has been producing world-class virtual reality
+          projects for some of the best companies around the globe. Our award-winning
+          creations have transformed businesses through digital experiences that bind
+          to their brand.</p>
+      </div>
     </div>
 
   </section>
-  <footer>
-    <h3>Loopstudios</h3>
-    <ul>
-      <li><a href="/"><img src="/loopstudios-landing-page-main/images/icon-facebook.svg" alt=""></a></li>
-      <li><a href=""><img src="/loopstudios-landing-page-main/images/icon-twitter.svg" alt=""></a></li>
-      <li><a href=""><img src="/loopstudios-landing-page-main/images/icon-pinterest.svg" alt=""></a></li>
-      <li><a href=""><img src="/loopstudios-landing-page-main/" alt=""></a></li>
-      <li><a href=""><img src="/loopstudios-landing-page-main/images/icon-instagram.svg" alt=""></a></li>
-    </ul>
-    <div>
-      <ul>
+
+  <section class="creations">
+    <div class="creations__container">
+      <h3 class="creations__title">Our creations</h3>
+      <button class="creations__btn">See all</button>
+    </div>
+
+
+    <div class="creations__box">
+      <div class="creations__box--1">
+        <img src="./images/desktop/image-deep-earth.jpg" alt="">
+        <span class="text">Deep<br>earth</span>
+      </div>
+      <div class="creations__box--2">
+        <img src="./images/desktop/image-night-arcade.jpg" alt="">
+        <span class="text">Night<br>arcade</span>
+      </div>
+      <div  class="creations__box--3">
+        <img src="./images/desktop/image-soccer-team.jpg" alt="">
+        <span class="text">Soccer<br>team VR</span>
+
+      </div>
+      <div class="creations__box--4">
+        <img src="./images/desktop/image-grid.jpg" alt="">
+        <span class="text">The<br>grid</span>
+      </div>
+      <div class="creations__box--5">
+        <img src="./images/desktop/image-from-above.jpg" alt="">
+        <span class="text">From up<br>above VR</span>
+      </div>
+      <div class="creations__box--6">
+        <img src="./images/desktop/image-pocket-borealis.jpg" alt="">
+        <span class="text">Pocket<br>borealis</span>
+      </div>
+      <div class="creations__box--7">
+        <img src="./images/desktop/image-curiosity.jpg" alt="">
+        <span class="text">The<br>curiosity</span>
+      </div>
+      <div class="creations__box--8">
+        <img src="./images/desktop/image-fisheye.jpg" alt="">
+        <span class="text">Make it<br>fisheye</span>
+      </div>
+    </div>
+
+  </section>
+  <footer class="footer">
+    <div class="footer__container">
+      <a href="#"><img src="./images/logo.svg" alt="Logo Loopstudios"></a>
+      <ul class="footer__list">
+        <li><a href="/"><img src="/loopstudios-landing-page-main/images/icon-facebook.svg" alt=""></a></li>
+        <li><a href=""><img src="/loopstudios-landing-page-main/images/icon-twitter.svg" alt=""></a></li>
+        <li><a href=""><img src="/loopstudios-landing-page-main/images/icon-pinterest.svg" alt=""></a></li>
+        <li><a href=""><img src="/loopstudios-landing-page-main/" alt=""></a></li>
+        <li><a href=""><img src="/loopstudios-landing-page-main/images/icon-instagram.svg" alt=""></a></li>
+      </ul>
+    </div>
+    <div class="footer__container">
+      <ul class="footer__list">
         <li><a href="">About</a></li>
         <li><a href="">Careers</a></li>
         <li><a href="">Events</a></li>

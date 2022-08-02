@@ -1,0 +1,48 @@
+.about{
+    padding-top: 6rem;
+}
+
+.about__row{
+    display: flex;
+    height: 80vh;
+    margin: 0 auto;
+    position: relative;
+    width: 80vw;
+}
+
+
+
+.about__col--1{
+    background-image: url(/loopstudios-landing-page-main/images/desktop/image-interactive.jpg);
+    width: 60%;
+    height: 100%;
+   
+}
+
+.about__col--2{
+
+    background-color: var(--branco);
+    bottom: 0;
+    height: 50%;
+    padding: 2rem 2rem 0 2rem;
+    position: absolute;
+    right: 4rem;
+    width: 40%;
+
+}
+
+.about__title{
+    color: var(--cinza-escuro);
+    font-size: 2.5rem;
+    font-family: var(--fonte--principal);
+    font-weight: 300;
+    padding: 0 1rem;
+    text-transform: uppercase;
+}
+
+.about__text{
+    color: var(--cinza-escuro);
+    line-height: 1.5rem;
+    padding: 0 1rem;
+
+}

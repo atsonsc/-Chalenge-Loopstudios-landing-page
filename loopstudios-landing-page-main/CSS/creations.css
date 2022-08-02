@@ -1,0 +1,147 @@
+/*.creations__container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 6rem;
+}
+
+.creations__btn{
+    padding: .2rem 1rem;
+}
+
+.creations__title{
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.creations__box{
+  
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-template-rows: 50% 50%;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+    width: 85vw;
+    height: 100vh;
+}
+
+
+.creations__box--1{
+    width: 100%;
+    height: 100%;
+    background-image: url(/loopstudios-landing-page-main/images/desktop/image-deep-earth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+.creations__box--2{
+    width: 100%;
+    height: 100%;
+    background-image: url(/loopstudios-landing-page-main/images/desktop/image-night-arcade.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 2%;
+    margin-bottom: 2%;
+   
+
+}
+.creations__box--3{
+    width: 100%;
+    height: 100%;
+    background-image: url(/loopstudios-landing-page-main/images/desktop/image-soccer-team.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.creations__box--4{
+    width: 100%;
+    height: 100%;
+    background-image: url(/loopstudios-landing-page-main/images/desktop/image-grid.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.creations__box--5{
+    width: 100%;
+    height: 100%;
+    background-image: url(/loopstudios-landing-page-main/images/desktop/image-from-above.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.creations__box--6{
+    width: 100%;
+    height: 100%;
+    background-image: url(/loopstudios-landing-page-main/images/desktop/image-pocket-borealis.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.creations__box--7{
+    width: 100%;
+    height: 100%;
+    background-image: url(/loopstudios-landing-page-main/images/desktop/image-curiosity.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.creations__box--8{
+    width: 100%;
+    height: 100%;
+    background-image: url(/loopstudios-landing-page-main/images/desktop/image-fisheye.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*/
+.creations__container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 6rem;
+}
+.creations__btn{
+    padding: .2rem 1rem;
+}
+
+.creations__title{
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.creations__box{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 85vw;
+    margin: 0 auto;
+  
+ 
+}
+
+.creations__box div{
+   
+    width: 25%;
+}
+.text{
+    color: #fdfdfd;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    bottom: 6.5rem;
+    left: 1.5rem;
+    position: relative;
+    
+}
