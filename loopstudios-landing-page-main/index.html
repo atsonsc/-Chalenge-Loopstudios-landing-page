@@ -24,11 +24,12 @@
 <body>
   <header class="header">
     <div>
-      <nav class="menu">
-        <button class="btn-mobile">
+      <nav class="menu" id="menu">
+        <button class="btn-mobile" id="btn-mobile">
           <span></span>
         </button>
-        <a href="#"><img src="/loopstudios-landing-page-main/images/logo.svg" alt="Logo Loopstudios"></a>
+        <a href="#"><img src="/loopstudios-landing-page-main/images/logo.svg" alt="Logo Loopstudios"
+            class="menu__logo"></a>
 
         <ul class="menu__list">
           <li class="menu__item"><a href="#" class="menu__link">About</a></li>
@@ -80,7 +81,7 @@
         <img src="./images/desktop/image-night-arcade.jpg" alt="">
         <span class="text">Night<br>arcade</span>
       </div>
-      <div  class="creations__box--3">
+      <div class="creations__box--3">
         <img src="./images/desktop/image-soccer-team.jpg" alt="">
         <span class="text">Soccer<br>team VR</span>
 
@@ -109,7 +110,7 @@
 
   </section>
   <footer class="footer">
-    <div class="footer__container">
+    <div class="footer__container footer__container--1">
       <a href="#"><img src="./images/logo.svg" alt="Logo Loopstudios"></a>
       <ul class="footer__list">
         <li><a href="/"><img src="/loopstudios-landing-page-main/images/icon-facebook.svg" alt=""></a></li>
@@ -119,7 +120,7 @@
         <li><a href=""><img src="/loopstudios-landing-page-main/images/icon-instagram.svg" alt=""></a></li>
       </ul>
     </div>
-    <div class="footer__container">
+    <div class="footer__container footer__container--2">
       <ul class="footer__list">
         <li><a href="">About</a></li>
         <li><a href="">Careers</a></li>
@@ -129,6 +130,31 @@
       </ul>
 
       <span>© 2021 Loopstudios. All rights reserved.</span>
+    </div>
+
+    <!--here starts layout for mobile devices -->
+    <div class="footer__container--mobile">
+      <a href="#"><img src="./images/logo.svg" alt="Logo Loopstudios"></a>
+      <ul class="footer__list">
+        <li><a href="">About</a></li>
+        <li><a href="">Careers</a></li>
+        <li><a href="">Events</a></li>
+        <li><a href="">Products</a></li>
+        <li><a href="">Support</a></li>
+      </ul>
+
+    </div>
+    <div class="footer__container--mobile">
+      <ul class="footer__list--midia">
+        <li><a href="/"><img src="/loopstudios-landing-page-main/images/icon-facebook.svg" alt="Logo facebook"></a></li>
+        <li><a href=""><img src="/loopstudios-landing-page-main/images/icon-twitter.svg" alt="Logo twitter"></a></li>
+        <li><a href=""><img src="/loopstudios-landing-page-main/images/icon-pinterest.svg" alt="Logo pinterest"></a></li>
+        <li><a href=""><img src="/loopstudios-landing-page-main/images/icon-instagram.svg" alt="Logo instagram"></a></li>
+      </ul>
+      <span>© 2021 Loopstudios. All rights reserved.</span>
+    </div>
+
+
     </div>
   </footer>
 

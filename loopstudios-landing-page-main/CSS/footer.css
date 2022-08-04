@@ -31,3 +31,42 @@ footer span{
     font-weight: 300;
     color: var(--branco);
 }
+
+.footer__container--mobile{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    .footer__container{
+        display: none;
+    }
+    .footer__container--mobile{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer__list{
+        display: block;
+    }
+
+    .footer__list li{
+        font-size: 1.8rem;
+        padding: .8rem;
+    }
+    
+    .footer__list--midia{
+        display: flex;
+    }
+
+    .footer__list--midia li{
+        padding: 1rem;
+    }
+
+    footer span{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}

@@ -145,3 +145,11 @@
     position: relative;
     
 }
+
+@media screen and (max-width: 600px){
+
+    .creations{
+        display: none;
+    }
+    
+}

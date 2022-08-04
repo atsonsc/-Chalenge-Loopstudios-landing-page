@@ -46,3 +46,51 @@
     padding: 0 1rem;
 
 }
+
+@media screen and (max-width: 600px) {
+
+    .about{
+       width: 100vw;
+       height: 100vh;
+        
+    }
+    .about__row{
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+    }
+    .about__col--1{
+        background-image: url(/loopstudios-landing-page-main/images/mobile/image-interactive.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50vh;
+        margin: 0 auto;
+        padding:0 ;
+        width: 90vw;
+      
+    }
+
+    .about__col--2{
+        height: 50vh;
+        width: 90vw;
+        margin: 0 auto;
+        margin-bottom: 4rem;
+        padding: 0 ;
+        padding-bottom: 2rem;
+        position: static; 
+    }
+
+    .about__title{
+        font-size: 2.2rem;
+        margin-top: 1rem;
+        text-align: center;
+
+    }
+
+    .about__text{
+        font-size: 1.5rem;
+        text-align: center;
+        line-height: 2rem;
+    }
+}

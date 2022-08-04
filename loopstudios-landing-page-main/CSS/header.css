@@ -1,6 +1,6 @@
 .header{
     background-image: url(/loopstudios-landing-page-main/images/desktop/image-hero.jpg);
-    background-size: cover;
+    background-size:inherit;
     background-position: center;
    
     height: 100vh;
@@ -58,4 +58,72 @@
     height: 30px;
     width: 30px;
     background-image: url(/loopstudios-landing-page-main/images/icon-hamburger.svg);
+}
+
+@media screen and (max-width: 600px){
+
+    .header{
+        background-image: url(/loopstudios-landing-page-main/images/mobile/image-hero.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+       
+    }
+
+    .menu__logo{
+        width: 150px;
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+    }
+    
+    .menu__list{
+        display: none;
+    }
+
+    .btn-mobile{
+        display: block;
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+
+    }
+    .header__container{
+        display: flex;
+        align-items: center;
+       
+        border: 1px solid var(--branco);
+        height: 30%;
+        margin: 60% auto;
+        width: 80%;
+
+    }
+
+    .menu.active .btn-mobile{
+        background-image: url(/loopstudios-landing-page-main/images/icon-close.svg);
+    }
+
+    .menu.active .menu__list{
+        background-color: var(--preto);
+        display: block;
+        height: 100vh;
+        left: 0;
+        position: absolute;
+        top: 4rem;
+        width: 100vw;
+        transition: 5s;
+        
+        
+    }
+
+    
+
+   .menu__item{
+    font-size: 2rem;
+    margin-left: 1.5rem;
+    border-bottom: 1px solid var(--branco);
+    width: 50%;
+
+    }
+ 
 }
