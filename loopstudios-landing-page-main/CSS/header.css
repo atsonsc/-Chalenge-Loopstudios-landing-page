@@ -1,6 +1,7 @@
 .header{
     background-image: url(/loopstudios-landing-page-main/images/desktop/image-hero.jpg);
     background-size:inherit;
+    background-repeat: no-repeat;
     background-position: center;
    
     height: 100vh;
@@ -11,7 +12,7 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: 2rem 6rem;
+    padding: 2rem 8rem;
 }
 .menu__list{
     display: flex;
@@ -32,7 +33,7 @@
 .header__container{
     border: 1px solid var(--branco);
     height: 27%;
-    margin-left: 6rem;
+    margin-left: 8rem;
     margin-top: 6rem;
     width: 25%;
    
@@ -106,14 +107,13 @@
     .menu.active .menu__list{
         background-color: var(--preto);
         display: block;
-        height: 100vh;
+        height: 1000vh;
         left: 0;
         position: absolute;
         top: 4rem;
         width: 100vw;
-        transition: 5s;
-        
-        
+        z-index: 1;
+        transition: 2s;
     }
 
     
